@@ -1,6 +1,6 @@
 #include "windowmanager.h"
 
-WIndowManager::WIndowManager()
+WindowManager::WindowManager()
 {
 
 }

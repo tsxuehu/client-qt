@@ -2,10 +2,11 @@
 #define WINDOWMANAGER_H
 
 
-class WIndowManager
+class WindowManager
 {
 public:
-    WIndowManager();
+    WindowManager();
+
 };
 
 #endif // WINDOWMANAGER_H
