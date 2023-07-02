@@ -1,6 +1,6 @@
 #include "iservice.h"
 
-Service::Service()
+IService::IService()
 {
 
 }

@@ -1,9 +1,10 @@
 #ifndef ELECTRONUTILS_H
 #define ELECTRONUTILS_H
 
-
-class ElectronUtils
+#include "qobject.h"
+class ElectronUtils: public QObject
 {
+    Q_OBJECT
 public:
     ElectronUtils();
 };

@@ -1,9 +1,10 @@
 #ifndef GLOBALSHORTCUTMANAGER_H
 #define GLOBALSHORTCUTMANAGER_H
+#include "qobject.h"
 
-
-class GlobalShortcutManager
+class GlobalShortcutManager : public QObject
 {
+    Q_OBJECT
 public:
     GlobalShortcutManager();
 };

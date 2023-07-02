@@ -12,10 +12,7 @@ int main(int argc, char *argv[])
     QApplication a(argc, argv);
     Application app;
 
-    app.initUi();
-    app.initBizMessageLoop();
-    app.initWsMsgHandleLoop();
-    app.initWsClient();
+    app.init();
 
     return a.exec();
 }

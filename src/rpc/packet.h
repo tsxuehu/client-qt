@@ -12,7 +12,7 @@ public:
 class MessageFeild {
 public:
     static const QString PacketType;
-    static const QString body;
+    static const QString Body;
 };
 
 #endif // PACKET_H

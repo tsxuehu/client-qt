@@ -23,7 +23,9 @@ SOURCES += \
     src/tools/globalshortcutmanager.cpp \
     src/tools/traymanager.cpp \
     src/ui/browserwindow.cpp \
+    src/utils/loopthread.cpp \
     src/window/browsewindowmethodproxy.cpp \
+    src/window/eventhandler.cpp \
     src/window/windowmanager.cpp
 
 HEADERS += \
@@ -40,7 +42,9 @@ HEADERS += \
     src/tools/globalshortcutmanager.h \
     src/tools/traymanager.h \
     src/ui/browserwindow.h \
+    src/utils/loopthread.h \
     src/window/browsewindowmethodproxy.h \
+    src/window/eventhandler.h \
     src/window/windowmanager.h
 
 # Default rules for deployment.
